@@ -15,9 +15,9 @@ const Home = () => {
         <h1>{t('home.introduction')} <span>{t('home.name')}</span></h1>
         <p>{t('home.description')}</p>
         <div className="sci">
-          <a href="https://www.facebook.com/devunex.89" target="blank"><FaFacebook /></a>
-          <a href="https://www.linkedin.com/in/sekh-ashik-billa-989193258/" target="blank"><FaLinkedinIn /></a>
-          <a href="https://github.com/sekhashik09" target="blank"><FaGithub /></a>
+          <a href="https://www.facebook.com/profile.php?id=100071644197085" target="blank"><FaFacebook /></a>
+          <a href="https://www.linkedin.com/in/arijit-musib-9057a1256/" target="blank"><FaLinkedinIn /></a>
+          <a href="https://github.com/arijitmusib95" target="blank"><FaGithub /></a>
         </div>
         <div className="main-btn">
           <a href={resume} className="btn">{t('home.downloadCV')}</a>

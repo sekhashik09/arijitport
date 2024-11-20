@@ -27,7 +27,7 @@ const Contact = () => {
 
     setLoading(true);
     try {
-      const response = await axios.post('https://portfolio-93ca.onrender.com/send-email', formData);
+      const response = await axios.post('https://backend-b505.onrender.com/send-email', formData);
       toast.success(t('contact.sendSuccess'));
       setFormData({ name: '', email: '', message: '' });
     } catch (error) {
