@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import { FaGithub, FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import myphoto from '../../assets/img/myphoto.png';
-import resume from '../../assets/img/ashik_billa_resume.pdf';
+import resume from '../../assets/img/arijit_resume.pdf';
 import { useTranslation } from 'react-i18next';
 
 const Home = () => {

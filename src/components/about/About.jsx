@@ -19,8 +19,7 @@ const About = () => {
             <div className="box education">
                 <h3>{t('about.education')}</h3>
                 <p>{t('about.bca')}</p>
-                <p>{t('about.vocational')}</p>
-                <p>{t('about.secondary')}</p>
+                <p>{t('about.highersecondary')}</p>
             </div>
             <div className="box">
                 <h3>{t('about.experience')}</h3>

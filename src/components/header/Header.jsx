@@ -30,7 +30,7 @@ const Header = () => {
 
   return (
     <header className={isSticky ? 'sticky' : ''}>
-      <a href="#" className="logo">DevUne<span>X.</span></a>
+      <a href="#" className="logo">Arijit</a>
 
       {/* Menu Icon for Mobile */}
       <div className="menuIcon" onClick={handleMenuToggle}>

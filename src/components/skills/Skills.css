@@ -9,7 +9,7 @@
     --p-font: 1rem;
   }
 
-/* Skills Section */
+
 .skills {
     padding: 60px 20%;
     background-color: var(--bg-color);
@@ -28,7 +28,7 @@
 
 .skills-category h3 {
     font-size: 1.5em;
-    color: var(--main-color); /* Adjust color as needed */
+    color: var(--main-color);
     margin-bottom: 10px;
 }
 
@@ -48,8 +48,7 @@
     width: 72px;
     height: 60px;
     margin-bottom: 11px;
-    /* border-radius: 38px; */
-    /* border: 2px solid var(--main-color);  */
+    
 }
 
 .skill p {

@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import img from '../../assets/portimg/Capture.png';
 import img1 from '../../assets/portimg/Capture1.png';
 import img2 from '../../assets/portimg/Capture2.png';
-import img3 from '../../assets/portimg/Capture3.png';
+import img3 from '../../assets/portimg/myproject.png';
 import { useTranslation } from 'react-i18next';
 
 const Portfolio = () => {
@@ -14,39 +14,10 @@ const Portfolio = () => {
     {
       title: t('portfolio.bookSellingTitle'),
       description: t('portfolio.bookSellingDescription'),
-      image: img,
-      githubLink: "https://github.com/sekhashik09/book-selling"
-    },
-    {
-      title: t('portfolio.qrCodeTitle'),
-      description: t('portfolio.qrCodeDescription'),
-      image: img1,
-      githubLink: "https://github.com/sekhashik09/qrcode-generator"
-    },
-    {
-      title: t('portfolio.personalPortfolioTitle'),
-      description: t('portfolio.personalPortfolioDescription'),
-      image: img2,
-      githubLink: "#"
-    },
-    {
-      title: t('portfolio.courseSeekingTitle'),
-      description: t('portfolio.courseSeekingDescription'),
       image: img3,
-      githubLink: "https://github.com/sekhashik09/course-seeking"
-    },
-    {
-      title: t('portfolio.project5Title'),
-      description: t('portfolio.project5Description'),
-      image: img,
-      githubLink: "#"
-    },
-    {
-      title: t('portfolio.project5Title'),
-      description: t('portfolio.project5Description'),
-      image: img,
-      githubLink: "#"
+      githubLink: "/"
     }
+   
   ];
 
   return (

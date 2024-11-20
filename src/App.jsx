@@ -8,7 +8,6 @@ import Portfolio from './components/portfolio/Portfolio';
 import Skills from './components/skills/Skills';
 import Language from './components/language/Language'; 
 import { useTranslation } from 'react-i18next';
-import Footer from './components/footer/Footer';
 
 function App() {
   const { t } = useTranslation();
@@ -38,7 +37,7 @@ function App() {
       <Skills />
       <Portfolio />
       <Contact />
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 }
