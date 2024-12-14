@@ -30,7 +30,6 @@ function App() {
 
   return (
     <>
-      <Language /> 
       <Header />
       <Home />
       <About />
